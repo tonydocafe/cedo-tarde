@@ -29,7 +29,7 @@ Depois, percorre os nós em ordem topológica invertida para ajustar os tempos m
 ### encontrar_caminho_critico
 Esta função encontra o caminho crítico, que é o conjunto de tarefas que determinam a duração total do projeto. 
 Um nó está no caminho crítico se o seu tempo mais cedo for igual ao seu tempo mais tarde.
-##### Cálculo Caminho Crítico:
+###### Cálculo Caminho Crítico:
 - Um nó está no caminho crítico se o seu tempo mais cedo é igual ao seu tempo mais tarde.
 - Isso significa que não há flexibilidade no início dessa tarefa: qualquer atraso nela causará um atraso no projeto inteiro.
 - Resultado: Uma lista caminho_critico com os nós que pertencem ao caminho crítico.
@@ -39,5 +39,14 @@ Um nó está no caminho crítico se o seu tempo mais cedo for igual ao seu tempo
 - Chama a função encontrar_caminho_critico para determinar o caminho crítico.
 - Imprime os tempos mais cedo e mais tarde de cada nó.
 - Imprime o caminho crítico.
+
+
+### .txt
+O arquivo .txt representa um grafo direcionado onde cada linha especifica uma aresta com um nó de origem, um nó de destino e um peso (ou duração). Este arquivo é utilizado pelo script para construir o grafo, calcular os tempos mais cedo e mais tarde das tarefas e identificar o caminho crítico do projeto.
+
+### Execução
+
+python3 cedo_tarde.py
+
 
 
