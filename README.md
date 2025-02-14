@@ -46,6 +46,7 @@ O arquivo .txt representa um grafo direcionado onde cada linha especifica uma ar
 
 ### Execução
 
+
 python3 cedo_tarde.py
 
 
