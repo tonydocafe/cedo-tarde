@@ -4,6 +4,8 @@ Ele também identifica o caminho crítico, que é a sequência de tarefas que de
 #### Biblioteca 
 NetworkX, utilizada em python para manipulção de grafos 
 
+
+
 ## Funções 
 
 ### calcular_tempo_mais_cedo
