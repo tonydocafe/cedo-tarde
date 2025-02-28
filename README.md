@@ -6,6 +6,8 @@ NetworkX, utilizada em python para manipulção de grafos
 
 
 
+
+
 ## Funções 
 
 ### calcular_tempo_mais_cedo
